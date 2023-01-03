@@ -1,7 +1,7 @@
-# Cursos - Origamid
+# Projetos e Exercicios - Origamid
 <img align="right" width="200" src="./img/origami.png">
 
-* Cursos para UI/UX Design e Front End realizados pela [Origamid](https://www.origamid.com/)
+* Projetos e exercicios realizados nos cursos de UI/UX Design e Front End realizados pela [Origamid](https://www.origamid.com/)
 
 ## Tecnologias:
 
