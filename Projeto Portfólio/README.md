@@ -1,7 +1,5 @@
-# Bikcraft - Responsivo
+# Projeto Portfólio 
 <img align="right" width="200" src="../img/origami5.png">
-
-## Projeto Portfólio 
 
 ### Foi colocado em práticas todo o conteúdo aprendido até o momento no curso de HTML e CSS.
 
