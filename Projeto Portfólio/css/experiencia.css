@@ -1,0 +1,107 @@
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+
+.experiencia .texto {
+  color: #525252;
+}
+
+.experiencia strong {
+  color: #141414;
+}
+
+.estudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.estudo::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#8cfff8, #4fd7ea);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.estudo-ano {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  width: 80px;
+  text-align: right;
+  color: #525252;
+  font-size: 0.875rem;
+}
+
+.estudo-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+  grid-column: 1/-1;
+}
+
+.estudo-texto {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
+}
+
+.estudo-habilidade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.estudo-habilidade li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #e3f5f5;
+  padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+  .estudo-titulo {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+  .estudo-ano {
+    position: initial;
+    grid-area: 1 / 2;
+    width: initial;
+    text-align: left;
+    font-weight: bold;
+    color: #141414;
+  }
+
+  @media (max-width: 450px) {
+    .estudo {
+      grid-template-columns: 1fr;
+    }
+    .estudo-ano {
+      grid-area: initial;
+      order: 1;
+      font-weight: 400;
+    }
+  }
+}
