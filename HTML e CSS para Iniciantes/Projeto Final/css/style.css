@@ -71,7 +71,7 @@ a {
   .header-menu a:hover {
     background-color: #2e2e2e;
   }
-  .header a::after {
+  .header-menu a::after {
     display: none;
   }
 }
