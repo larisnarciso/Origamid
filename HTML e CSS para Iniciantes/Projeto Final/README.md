@@ -1,4 +1,6 @@
 # Projeto Final - Bikcraft
+<img align="right" width="200" src="../../img/origami6.png">
+
 
 ## Projetos final utilizando todo conhecimento aprendido no curso de HTML e CSS para Iniciantes.
 
