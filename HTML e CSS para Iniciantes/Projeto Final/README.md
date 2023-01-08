@@ -2,10 +2,8 @@
 <img align="right" width="200" src="../../img/origami6.png">
 
 
-## Projetos final utilizando todo conhecimento aprendido no curso de HTML e CSS para Iniciantes.
+## Projeto final utilizando todo conhecimento aprendido no curso de HTML e CSS para Iniciantes.
 
-## Tecnologias:
+### Foi desenvolvido a prototipação no Figma, sendo utilizadas como base para o desenvolvimento do portfólio.
 
-![HTML](https://img.shields.io/badge/html-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%e34f26)
-![CSS](https://img.shields.io/badge/css-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=%2361dafb)
-![JAVASCRIPT](https://img.shields.io/badge/javascript-%2320232a.svg?style=for-the-badge&logo=javascript&logoColor=%)
+[![FIGMA](https://img.shields.io/badge/figma-%2320232a.svg?style=for-the-badge&logo=figma&logoColor=%ea4c1d)](https://www.figma.com/file/oQD781VCPN8tk4GuUbg08F/bikcraft?node-id=0%3A1&t=uW9dIRl92Nr5gHsn-1)
