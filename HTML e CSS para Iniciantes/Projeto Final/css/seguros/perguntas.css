@@ -50,14 +50,14 @@
   transform: rotate(180deg);
 }
 
-.perguntas dd {
+.js .perguntas dd {
   display: none;
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch; /*expande no max 80 caracteres*/
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd.ativa {
   display: block;
 }
 
