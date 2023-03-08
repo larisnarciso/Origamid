@@ -17,3 +17,4 @@ Projetos e exercicios realizados nos cursos de UI/UX Design e Front End realizad
 [![UIDESIGN](https://img.shields.io/badge/UI/DESIGN-%2320232a.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.origamid.com/certificate/fc8e015e)
 [![HTML](https://img.shields.io/badge/HTML/css-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=white)](https://www.origamid.com/certificate/84115b72)
 [![FLEXBOX](https://img.shields.io/badge/Flexbox-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=white)](https://www.origamid.com/certificate/0a6ee79f)
+[![GRIDLAYOUT](https://img.shields.io/badge/Grid-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=white)](https://www.origamid.com/certificate/f71786af)
