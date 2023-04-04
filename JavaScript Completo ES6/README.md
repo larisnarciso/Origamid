@@ -1,7 +1,7 @@
-# HTML e CSS
-<img align="right" width="200" src="../img/origami2.png">
+# JavaScript Completo ES6 
+<img align="right" width="200" src="../img/origami7.png">
 
-## Exercicios e Projetos realizados no curso de HTML e CSS para Iniciantes
+## Projeto Animais Fantástico realizado no curso de JavaScript Completo ES6 
 
 ## Tecnologias:
 
