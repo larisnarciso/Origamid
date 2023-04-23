@@ -8,7 +8,7 @@ Projetos e exercicios realizados nos cursos de UI/UX Design e Front End realizad
 
 Projeto realizado no curso de HTML e CSS para Iniciantes.
 
-### [Animais Fantasticos](./JavaScript-Completo-ES6/index.html)
+### [Animais Fantasticos](./JavaScript-Completo-ES6/Projeto-Final/index.html)
 
 Projeto realizado no curso de JavaScript.
 

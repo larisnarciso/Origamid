@@ -1,8 +1,8 @@
-# JavaScript Completo
+# JavaScript Completo ES6
 
-<img align="right" width="200" src="../img/origami8.png">
+<img align="right" width="200" src="../../img/origami9.png">
 
-## Exercicios e Projeto Animais Fantástico realizados no curso de JavaScript Completo.
+## Exercicio de Slide realizado no curso de Javascript
 
 ## Tecnologias:
 
