@@ -7,12 +7,12 @@
 
 .numeros-grid h3 {
   font-size: 2rem;
-  font-family: "Playfair Display SC", georgia;
+  font-family: 'Playfair Display SC', georgia;
   margin-bottom: 0.5rem;
 }
 
 .numeros-grid span {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 1.5rem;
   font-weight: bold;
   color: #e54;
@@ -21,5 +21,8 @@
 @media (max-width: 700px) {
   .numeros-grid {
     grid-column: 1/-1;
+  }
+  .numeros-grid h3 {
+    font-size: 1.5rem;
   }
 }

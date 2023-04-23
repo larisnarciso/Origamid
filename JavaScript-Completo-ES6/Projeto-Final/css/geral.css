@@ -53,7 +53,7 @@ body {
   margin-right: 10px;
   color: #222222;
   text-decoration: none;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.875rem;
@@ -73,7 +73,7 @@ body {
 }
 
 .titulo {
-  font-family: "Playfair Display SC", georgia;
+  font-family: 'Playfair Display SC', georgia;
   font-size: 6rem;
   line-height: 1;
   font-weight: 400;
@@ -83,7 +83,7 @@ body {
 
 /* Animais */
 .animais h2 {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -92,7 +92,7 @@ body {
 }
 
 .animais h2::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 40px;
   height: 10px;
@@ -144,7 +144,7 @@ body {
 }
 
 .faq-lista dt {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
@@ -152,7 +152,7 @@ body {
 }
 
 .faq-lista dt::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 20px;
   height: 10px;
@@ -181,7 +181,7 @@ body {
 }
 
 .dados li::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 20px;
   height: 10px;
@@ -197,7 +197,7 @@ body {
 }
 
 .copy p {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   padding: 20px;
 }
@@ -225,7 +225,7 @@ body {
     grid-column: 1 / -1;
   }
   .grid-section h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .menu {
     margin-top: 0px;
@@ -236,19 +236,19 @@ body {
 }
 
 /* Navegação por Tabs */
-.js [data-tab="content"] section {
+.js [data-tab='content'] section {
   display: none;
 }
 
-[data-tab="content"] section.ativo {
+[data-tab='content'] section.ativo {
   display: block !important;
 }
 
-[data-tab="content"] section.ativo.show-right {
+[data-tab='content'] section.ativo.show-right {
   animation: show-right 0.5s forwards;
 }
 
-[data-tab="content"] section.ativo.show-down {
+[data-tab='content'] section.ativo.show-down {
   animation: show-down 0.5s forwards;
 }
 
@@ -275,20 +275,27 @@ body {
 }
 
 /* Accordion List */
-.js [data-anime="accordion"] dd {
+.js [data-anime='accordion'] dd {
   display: none;
 }
 
-[data-anime="accordion"] dt::after {
-  content: "⬎";
+[data-anime='accordion'] dt::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url('../img/arrow-red.svg') center center no-repeat;
   margin-left: 10px;
+  transform: rotate(90deg);
+  transition: transform 0.3s;
 }
 
-[data-anime="accordion"] dt.ativo::after {
-  content: "⬏";
+[data-anime='accordion'] dt.ativo::after {
+  content: '';
+  transform: rotate(-90deg);
 }
 
-[data-anime="accordion"] dd.ativo {
+[data-anime='accordion'] dd.ativo {
   display: block;
   animation: slideDown 0.5s forwards;
 }
@@ -305,20 +312,20 @@ body {
 }
 
 /* Animação Scroll */
-.js [data-anime="scroll"] {
+.js [data-anime='scroll'] {
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
   transition: 0.3s;
 }
 
-.js [data-anime="scroll"].ativo {
+.js [data-anime='scroll'].ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
 
 /* Horario */
 [data-semana]::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 6px;
   height: 6px;
@@ -338,4 +345,12 @@ body {
   padding: 0.2rem 0.5rem;
   font-weight: bold;
   border-radius: 2px;
+}
+
+/* Setas */
+.arrow-black {
+  background: url('../img/arrow-black.svg') center center no-repeat;
+  display: inline-block;
+  width: 8px;
+  height: 10px;
 }

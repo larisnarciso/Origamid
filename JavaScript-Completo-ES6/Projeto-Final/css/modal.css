@@ -17,11 +17,13 @@
 
 .modal {
   background: #ffffff;
-  min-width: 300px;
+  width: 80vw;
+  max-width: 600px;
   padding: 40px;
   border: 10px solid #fb5;
   box-shadow: 0 0 0 10px white;
   position: relative;
+  box-sizing: border-box;
 }
 
 @keyframes modal {
@@ -48,15 +50,12 @@
   border: 4px solid white;
   border-radius: 50%;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
-  background: #e54;
-  font-size: 1.2rem;
-  color: #ffffff;
-  font-family: "IBM Plex Mono", monospace;
+  background: #e54 url('../img/fechar.svg') center center no-repeat;
   cursor: pointer;
 }
 
 .modal label {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   display: block;
   font-weight: bold;
   margin: 1rem 0 0.5rem 0;
@@ -66,10 +65,12 @@
   width: 100%;
   padding: 0.7rem 0.5rem;
   box-sizing: border-box;
+  border: 1.5px solid #222;
+  border-radius: 0px;
 }
 
-.modal button[type="submit"] {
-  font-family: "IBM Plex Mono", monospace;
+.modal button[type='submit'] {
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   color: #ffffff;
   font-size: 1rem;
