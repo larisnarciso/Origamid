@@ -16,7 +16,7 @@ const Slide = ({ slides }) => {
   }
 
   function slideNext() {
-    if (active < slides.lenght - 1) setActive(active + 1);
+    if (active < slides.length - 1) setActive(active + 1);
   }
 
   return (
