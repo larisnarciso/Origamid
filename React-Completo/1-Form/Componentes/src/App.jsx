@@ -1,8 +1,8 @@
 import React from 'react';
-import Input from './Form/Input';
-import Select from './Form/Select';
-import Radio from './Form/Radio';
-import Checkbox from './Form/Checkbox';
+import Input from '../Form/Input';
+import Select from '../Form/Select';
+import Radio from '../Form/Radio';
+import Checkbox from '../Form/Checkbox';
 
 const App = () => {
   const [nome, setNome] = React.useState('');

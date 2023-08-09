@@ -1,8 +1,8 @@
-# Componentes Form
+# Exercicios de Formulario
 
 <img align="right" width="200" src="../../img/origami9.png">
 
-## Exercicio de Slide realizado no curso de React
+## Exercicio realizados no curso de React
 
 ## Tecnologias:
 
