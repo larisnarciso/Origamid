@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box; /* Adiciona o padding e o border ao height e width  */
+}
+
+body {
+  margin: 0px; /* Tira margem inicial */
+  color: #333;
+  --type-first: Helvetica, Arial, sans-serif;
+  --type-second: 'Spectral', Georgia;
+  font-family: var(--type-first);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+
+ul,
+li {
+  list-style: none; /* tira as 'bolinhas' */
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%; /* responsivas */
+}
+
+button,
+input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
+  color: #333;
+}
+
+.container {
+  max-width: 50rem; /* largura maxima do site de 800px */
+  padding: 0 1rem;
+  margin: 0 auto; /* alinha ao centro */
+}
