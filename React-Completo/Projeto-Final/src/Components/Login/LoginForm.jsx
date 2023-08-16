@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 import useForm from '../../Hooks/useForm';
+import Error from '../Helper/Error';
 import { UserContext } from '../../UserContext';
 
 const LoginForm = () => {
@@ -29,7 +30,7 @@ const LoginForm = () => {
         ) : (
           <Button>Entrar</Button>
         )}
-        {error && <p>{error}</p>}
+        <Error error={error} />
       </form>
       <Link to='/login/criar'>Cadastro</Link>
     </section>
