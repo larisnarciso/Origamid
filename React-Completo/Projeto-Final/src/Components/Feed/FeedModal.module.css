@@ -1,0 +1,22 @@
+.modal {
+  position: fixed; /* Sempre fica fixo na tela */
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Fica um plano escuro quando clica no modal */
+  display: flex;
+  z-index: 1000;
+  padding: 2rem calc(4rem + 15px) 2rem 4rem; /* calc para ajustar tamanho devido barra de scroll*/
+}
+
+@media (max-width: 40rem) {
+  .modal {
+    padding: 2rem calc(2rem + 15px) 2rem 2rem;
+  }
+}
