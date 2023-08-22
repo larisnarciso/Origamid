@@ -1,10 +1,11 @@
 import React from 'react';
-import useFetch from '../../Hooks/useFetch';
-import { useParams } from 'react-router-dom';
-import { PHOTO_GET } from '../../Api';
 import Error from '../Helper/Error';
 import Loading from '../Helper/Loading';
+import Head from '../Helper/Head';
 import PhotoContent from './PhotoContent';
+import useFetch from '../../Hooks/useFetch';
+import { PHOTO_GET } from '../../Api';
+import { useParams } from 'react-router-dom';
 
 const Photo = () => {
   const { id } = useParams();
@@ -20,6 +21,7 @@ const Photo = () => {
   if (data)
     return (
       <section className='container mainContainer'>
+        <Head title={data.photo.title} />
         <PhotoContent single={true} data={data} />
       </section>
     );
