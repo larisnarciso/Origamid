@@ -3,7 +3,7 @@ import useFetch from '../../Hooks/useFetch';
 import Error from '../Helper/Error';
 import styles from './PhotoCommentsForm.module.css';
 import { ReactComponent as Enviar } from '../../Assets/enviar.svg';
-import { COMMENT_POST } from '../../api';
+import { COMMENT_POST } from '../../Api';
 
 const PhotoCommentsForm = ({ id, setComments }) => {
   const [comment, setComment] = React.useState('');
