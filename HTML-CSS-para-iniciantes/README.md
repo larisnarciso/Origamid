@@ -1,6 +1,6 @@
 # HTML e CSS
 
-<img align="right" width="200" src="../img/origami2.png">
+<img src="/HTML-CSS-para-iniciantes/Projeto-Final/img/bikcraft.jpg">
 
 ## Exercicios e Projetos realizados no curso de HTML e CSS para Iniciantes
 

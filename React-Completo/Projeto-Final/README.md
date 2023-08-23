@@ -1,6 +1,6 @@
 # Dogs
 
-<img align="right" width="200" src="../../img/origami4.png">
+<img src="/React-Completo/Projeto-Final/dogs.jpg">
 
 ## Projeto Dogs realizado no curso de React Completo.
 

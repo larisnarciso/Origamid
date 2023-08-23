@@ -1,6 +1,6 @@
 # JavaScript Completo ES6
 
-<img align="right" width="200" src="../../img/origami7.png">
+<img src="/JavaScript-Completo-ES6/Projeto-Final/img/animais-fantasticos.jpg">
 
 ## Projeto Animais Fantástico realizado no curso de JavaScript Completo ES6
 

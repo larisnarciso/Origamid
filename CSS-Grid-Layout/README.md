@@ -1,6 +1,6 @@
 # Grid Layout
 
-<img align="right" width="200" src="../img/origami5.png">
+<img src="/CSS-Grid-Layout/img/wildbeast.jpg">
 
 ## Projeto prático Wildbeast realizado no curso de CSS Grid Layout.
 

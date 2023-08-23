@@ -1,6 +1,6 @@
 # FlexBlog
 
-<img align="right" width="200" src="../img/origami4.png">
+<img src="/CSS-Flexbox/img/flexblog.jpg">
 
 ## Projeto prático realizado no curso de CSS Flexbox
 
