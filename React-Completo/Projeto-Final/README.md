@@ -1,8 +1,23 @@
-# React + Vite
+# Dogs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img align="right" width="200" src="../../img/origami4.png">
 
-Currently, two official plugins are available:
+## Projeto Dogs realizado no curso de React Completo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dogs é uma rede social para cachorros, com as seguintes funcionalidades:
+
+- Criação de novos perfis de usuário.
+- Recuperação de senhas de contas.
+- Compartilhamento de novas fotos.
+- Exclusão de fotos previamente postadas.
+- Comentar em fotos já postadas.
+
+A plataforma utiliza uma API pré-configurada da Origamid, desenvolvida com o auxílio do WordPress. No contexto deste projeto, o Vite é utilizado para agilizar o desenvolvimento em React.
+
+## Tecnologias:
+
+![REACT](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%)
+![JAVASCRIPT](https://img.shields.io/badge/javascript-%2320232a.svg?style=for-the-badge&logo=javascript&logoColor=%)
+![HTML](https://img.shields.io/badge/html-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%)
+![CSS](https://img.shields.io/badge/css-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=%2361dafb)
+![VITE](https://img.shields.io/badge/vite-%2320232a.svg?style=for-the-badge&logo=vite&logoColor=%)
