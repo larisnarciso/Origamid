@@ -1,4 +1,4 @@
-<a href="https://larisnarciso.github.io/Origamid/CSS-Grid-Layout/index.html"><h1>Wildbeast</h1></a>
+# [Wildbeast](https://larisnarciso.github.io/Origamid/CSS-Grid-Layout/index.html)
 
 <img src="/CSS-Grid-Layout/img/wildbeast.jpg">
 

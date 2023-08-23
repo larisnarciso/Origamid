@@ -1,4 +1,4 @@
-<a href="https://larisnarciso.github.io/Origamid/JavaScript-Completo-ES6/Projeto-Final/index.html"><h1>Animais Fantásticos</h1></a>
+# [Animais Fantásticos](https://larisnarciso.github.io/Origamid/JavaScript-Completo-ES6/Projeto-Final/index.html)
 
 <img src="/JavaScript-Completo-ES6/Projeto-Final/img/animais-fantasticos.jpg">
 
