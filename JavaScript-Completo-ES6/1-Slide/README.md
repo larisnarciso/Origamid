@@ -1,6 +1,6 @@
 # JavaScript Completo ES6
 
-<img align="right" width="200" src="../../img/origami9.png">
+<img align="right" width="200" src="../../img/origami7.png">
 
 ## Exercicio de Slide realizado no curso de Javascript
 
