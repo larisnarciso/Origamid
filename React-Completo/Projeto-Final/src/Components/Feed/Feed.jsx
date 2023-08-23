@@ -6,16 +6,13 @@ import propTypes from 'prop-types';
 const Feed = ({ user }) => {
   const [modalPhoto, setModalPhoto] = React.useState(null);
   const [pages, setPages] = React.useState([1]);
-  const [infinite, setInfinite] =
-    React.useState(
-      true
-    ); /*confere se deve ou nao continuar puxando os valores */
+  const [infinite, setInfinite] = React.useState(true);
 
   React.useEffect(() => {
+    let wait = false;
     function infiniteScroll() {
       if (infinite) {
-        let wait = false;
-        const scroll = window.screenY;
+        const scroll = window.scrollY;
         const height = document.body.offsetHeight - window.innerHeight;
         if (scroll > height * 0.75 && !wait) {
           setPages((pages) => [...pages, pages.length + 1]);
@@ -50,6 +47,17 @@ const Feed = ({ user }) => {
           setInfinite={setInfinite}
         />
       ))}
+      {!infinite && !user && (
+        <p
+          style={{
+            textAlign: 'center',
+            padding: '2rem 0 4rem 0',
+            color: '#888',
+          }}
+        >
+          Não existem mais postagens.
+        </p>
+      )}
     </div>
   );
 };
