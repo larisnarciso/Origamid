@@ -2,7 +2,9 @@
 
 <img align="right" width="200" src="./img/origami.png">
 
-Projetos e exercicios realizados nos cursos de UI/UX Design e Front End da [Origamid](https://www.origamid.com/)
+O repositório é dividido em pastas contendo projetos e exercícios realizados nos cursos de UI/UX Design e Front End da [Origamid](https://www.origamid.com/). 
+
+Os projetos principais de cada curso pode ser encontrado no [Portfólio](https://larisnarciso.github.io/projetos/) 
 
 ## Tecnologias:
 
