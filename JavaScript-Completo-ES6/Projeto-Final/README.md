@@ -1,6 +1,6 @@
 # [Animais Fantásticos](https://larisnarciso.github.io/Origamid/JavaScript-Completo-ES6/Projeto-Final/index.html)
 
-<img src="/Projeto-Final/img/animais-fantasticos.jpg">
+<img src="/JavaScript-Completo-ES6/Projeto-Final/img/animais-fantasticos.jpg">
 
 ## Animais Fantástico
 
